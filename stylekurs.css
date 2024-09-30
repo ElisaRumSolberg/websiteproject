@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color:rgb(209, 149, 199) ;
+    background-size: cover;
+   }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        background:rgb(209, 149, 199);
+    
+    }
+    
+    .circul{
+        border-radius: 50%;
+        width:120 px;
+        height:100px;
+        margin-right: 16px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between; /* Logo sola, menü sağa hizalanır */
+        align-items: center;
+    
+    }
+    
+    .menu ul {
+        display: flex; /* Liste elemanlarını yan yana yerleştirir */
+        list-style-type: none; /* Liste işaretlerini kaldırır */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        margin-left: 40px; /* Menü elemanları arasında boşluk */
+    }
+    
+    .menu ul li a {
+        text-decoration: none; /* Link alt çizgisi kaldırılır */
+        color: #000;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .tekst{
+        font-size: 20px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+    
+    header p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .course-section {
+        background-color:#66095d;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 900px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    .course-section h2 {
+        color: #444;
+        font-size: 28px;
+        border-bottom: 2px solid #a612a8;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .course {
+        margin-bottom: 30px;
+    }
+    
+    .course h3 {
+        color: #3f024b;
+        font-size: 24px;
+    }
+    
+    .course p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    
+    /* Stil for kursbilder */
+    .course-image {
+        width: 40%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+    
+    footer a {
+        color: #730671;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    
+     
+    
+
+
+.contact-section {
+    background-color: #66095d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* İkonun üzerine gelince büyüme efekti */
+}
+
+header {
+    background-color: #333;
+    color: #66095d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.about-section,
+.values-section,
+.instructors-section,
+.goals-section {
+    background-color: #66095d;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #444;
+    font-size: 28px;
+    border-bottom: 2px solid #e692e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 18px;
+}
+
+.values-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.instructors-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.instructor {
+    width: 45%;
+    text-align: center;
+}
+
+.instructor img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.instructor h3 {
+    font-size: 22px;
+    margin-top: 0;
+    color: #333;
+}
+
+.instructor p {
+    font-size: 16px;
+    color: #141111;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.gallery-section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.gallery-section h2 {
+    color: #444;
+    font-size: 28px;
+    border-bottom: 2px solid #704d70;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f1efef;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #e692e6;
+    text-align: center;
+}
+
+.gallery-image {
+    max-width: 200%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color:#a612a8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
