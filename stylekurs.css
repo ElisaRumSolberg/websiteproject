@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding:0;
-    background-color:rgb(209, 149, 199) ;
+    background-color:rgb(250, 246, 249) ;
     background-size: cover;
    }
     .navbar{
         width: 100%;
         height: 100px;
-        background:rgb(209, 149, 199);
+        background:rgb(250, 246, 249);
     
     }
     
@@ -159,7 +159,7 @@
 }
 
 .contact-section a {
-    color: #007BFF;
+    color: #134b73;
     text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ header p {
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(124, 5, 148, 0.1);
     border-radius: 8px;
 }
 
@@ -263,8 +263,8 @@ p, ul {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:  #66095d;
+    color: #190c28;
     padding: 20px;
     text-align: center;
 }
@@ -280,7 +280,7 @@ header p {
 }
 
 .gallery-section {
-    background-color: #fff;
+    background-color: #66095d;
     margin: 20px auto;
     padding: 20px;
     max-width: 1200px;
@@ -289,7 +289,7 @@ header p {
 }
 
 .gallery-section h2 {
-    color: #444;
+    color: #3c0c0c;
     font-size: 28px;
     border-bottom: 2px solid #704d70;
     padding-bottom: 10px;
@@ -324,7 +324,7 @@ header p {
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #5d046e;
     color: #fff;
     padding: 10px 0;
     margin-top: 20px;
